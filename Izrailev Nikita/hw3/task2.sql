@@ -1,1 +1,0 @@
-SELECT avg(total_sessions) AS aver_sessions FROM (SELECT user_id, count(session_id) AS total_sessions FROM sessions GROUP BY user_id) AS s;

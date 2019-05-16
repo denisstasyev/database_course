@@ -1,7 +1,0 @@
-CREATE TABLE IF NOT EXISTS sessions (
-	session_id SERIAL PRIMARY KEY,
-    user_id BIGINT(20) UNSIGNED,
-    begin_dttm TIMESTAMP NOT NULL,
-    end_dttm TIMESTAMP DEFAULT NULL,
-    FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE RESTRICT
-) ENGINE = InnoDB;

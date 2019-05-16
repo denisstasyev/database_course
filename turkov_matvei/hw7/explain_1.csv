@@ -1,5 +1,0 @@
-1,PRIMARY,Views,,ALL,,,,,1000,100,Using temporary; Using filesort
-1,PRIMARY,<derived2>,,ALL,,,,,3,33.33,Using where; Using join buffer (Block Nested Loop)
-2,DERIVED,Views,,ALL,,,,,1000,100,
-3,UNION,cte,,ALL,,,,,2,100,Recursive; Using where
-5,SUBQUERY,Views,,ALL,,,,,1000,100,

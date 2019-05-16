@@ -1,5 +1,0 @@
-1,PRIMARY,<derived2>,,ALL,,,,,3,100,Using temporary; Using filesort
-1,PRIMARY,sessions,,ALL,,,,,3591,100,Using where; Using join buffer (Block Nested Loop)
-2,DERIVED,sessions,,ALL,,,,,3591,100,
-3,UNION,cte,,ALL,,,,,2,100,Recursive; Using where
-5,SUBQUERY,sessions,,ALL,,,,,3591,100,

@@ -1,7 +1,0 @@
-CREATE TABLE service.payments (
-payment_id SERIAL PRIMARY KEY,
-user_id BIGINT(20) UNSIGNED NOT NULL,
-payment_sum DOUBLE(10,2) DEFAULT 0,
-payment_dttm TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
-);

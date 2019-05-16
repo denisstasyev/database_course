@@ -1,7 +1,0 @@
-CREATE TABLE IF NOT EXISTS payments
-(
-  payment_id SERIAL PRIMARY KEY,
-  user_id INTEGER NOT NULL REFERENCES users(user_id),
-  payment_sum DOUBLE NOT NULL,
-  payment_dttm TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
-);
